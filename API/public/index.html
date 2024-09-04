@@ -1,0 +1,24 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle de Frota</title>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <h1>Simulador de Frota de Ônibus</h1>
+  <form id="busForm">
+    <input type="text" id="numero" placeholder="Número do Ônibus" required>
+    <input type="number" id="capacidade" placeholder="Capacidade" required>
+    <input type="text" id="pontos" placeholder="Pontos (JSON)" required>
+    <button type="submit">Adicionar Ônibus</button>
+  </form>
+  <h2>Previsão de Frota</h2>
+  <button id="preverBtn">Calcular Previsão</button>
+  <p id="previsao"></p>
+
+  <script src="app.js"></script>
+</body>
+</html>
